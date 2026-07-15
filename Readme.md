@@ -1,187 +1,131 @@
-## 🌟 WELCOME TO ( সহজ সরল সিম্পল ) ASSIGNMENT-001 😎
+# 🌐 DevConf 2026 — Premier Developer Conference Landing Page
+
+![DevConf 2026 Brand Logo](./assets/logo.png)
+
+A high-performance, responsive, and modern web application landing page designed for **DevConf 2026** — a tech engineering conference bringing together 4,000+ software developers, AI pioneers, cloud architects, and tech leaders worldwide.
+
+Built using pure **Semantic HTML5** and modern **CSS3 Layout Engineering** (Flexbox, CSS Grid, Custom Design Tokens) without external JavaScript frameworks or UI libraries to guarantee maximum accessibility, instant page load times, and flawless visual fidelity.
 
 ---
 
-📅 Deadline For 60 marks: **Jul 11 2026 (11:59 pm ⏱️)**
+## 🔗 Live Demo & Links
 
-📅 Deadline For 50 marks: **Jul 12 2026 (11:59 pm ⏱️)**
-
-📅 Deadline For 30 marks: **Any time after the 50 marks deadline**
-
----
-
-## 📌 Assignment Requirements
-
-### ✅ Main Requirements (50 Marks)
-
-### 🔹 Navbar Section
-
-- Logo aligned to the left ("DEVCONF 2026")
-- Menu items centered (Speakers, Schedule, Tracks, Venue, Blog)
-- A "Register Now" button aligned to the right
+- 🌐 **Live Website:** [tanjimtaosif.github.io/dev-conf](https://tanjimtaosif.github.io/dev-conf/)
+- 💻 **Source Code Repository:** [github.com/tanjimtaosif/dev-conf](https://github.com/tanjimtaosif/dev-conf)
 
 ---
 
-### 🔹 Banner (Hero) Section
+## ✨ Key Technical & UI/UX Highlights
 
-- A full-width dark background image with overlay
-- Centered bold heading ("Code. *Connect*. Create") — style one word (e.g. "Connect") in italics for emphasis
-- Centered supporting paragraph text below the heading
-- One "Register Now" button, centered, below the text
-
----
-
-### 🔹 Meet the Speakers Section
-
-- Centered section heading ("Meet the Speakers")
-- A 2x2 grid of speaker cards (minimum 4 speakers)
-- Each card must include:
-
-  - A speaker photo
-  - A small category/track label (e.g. AI/ML, Cloud & DevOps, Frontend, Security)
-  - Speaker name
-  - Speaker title/company
+- **Zero-Framework Architecture:** Engineered purely with Vanilla HTML5 and CSS3 for minimal runtime overhead and sub-millisecond execution.
+- **Strict Semantic Structure:** Full implementation of W3C-compliant semantic tags (`<nav>`, `<header>`, `<section>`, `<article>`, `<footer>`) with ARIA attributes for screen reader accessibility.
+- **Pixel-Perfect Figma Fidelity:** Matches modern SaaS aesthetics inspired by Stripe, Vercel, and Linear design systems.
+- **Custom CSS Design Tokens:** Global CSS variables (`:root`) for color palettes, shadow levels, font stacks, and dynamic transitions.
+- **Responsive Fluid Grids:** Desktop, tablet, and mobile breakpoints optimized using pure CSS Grid and Flexbox layouts.
+- **Micro-Animations & Micro-Interactions:** Pure CSS hover elevations (`translateY`), accent expansion bars, glowing subtle shadows, and interactive state triggers without relying on JS libraries.
 
 ---
 
-### 🔹 Secure Your Spot (Pricing) Section
+## 📸 Section Breakdown & Architecture
 
-- Centered section heading ("Secure Your Spot") with a subtitle
-- Three pricing cards in a row (Standard, Pro, Team)
-- The middle/featured plan (Pro) should be visually highlighted (different background color)
-- Each card must include:
+### 1. 🧭 Navigation Bar (`<nav>`)
+- Left-aligned corporate brand identity (`DEVCONF 2026`).
+- Centered navigation routing (`Speakers`, `Schedule`, `Tracks`, `Venue`, `Blog`).
+- Right-aligned CTA button with dynamic state elevation.
 
-  - Plan name/label
-  - Price
-  - A bullet list of included features
-  - A button at the bottom
+### 2. ⚡ Hero Section (`<section class="hero">`)
+- Immersive dark hero overlay container over high-definition background photography.
+- High-contrast visual header: `Code. Connect. Create` with emphasized italic typography styling.
+- Conversion-driven subtitle & primary registration call-to-action button.
 
----
+### 3. 🎙️ Keynote Speakers (`<section class="speakers-section">`)
+- 2x2 multi-column responsive grid featuring world-renowned engineering leaders:
+  - **Andrej Karpathy** (Anthropic) — *AI / ML Track*
+  - **Demis Hassabis** (Google DeepMind) — *Cloud & DevOps Track*
+  - **Gary Marcus** (Vercel) — *Frontend Engineering Track*
+  - **Mustafa Suleyman** (Microsoft AI) — *Security & Systems Track*
+- Dedicated track pill badges, high-contrast typography, and styled speaker avatars.
 
-### 🔹 Footer Section
+### 4. 💎 "What You'll Experience" Feature Grid (`<section class="experience-section">`)
+- A conversion-focused feature showcase highlighting the holistic conference experience:
+  - 🛠️ **Hands-on Workshops**
+  - 🤝 **Global Networking**
+  - 🎙️ **Inspiring Keynotes**
+  - 🚀 **Startup Expo**
+  - 💼 **Tech Career Fair**
+  - 🥳 **Community After Party**
+- Each card incorporates custom inline SVG icons, subtle background glow effects, smooth card lift interactions (`transform: translateY(-8px)`), and focus outline rings for full keyboard navigation accessibility.
 
-- Logo on the left
-- Social media links with icons on the right
-- A horizontal divider
-- Copyright message below the divider
+### 5. 🎟️ Tiered Ticket Pricing (`<section class="secure-spot-section">`)
+- 3-tier responsive pricing matrix (`Standard`, `Pro`, `Team`).
+- Distinct visual highlight for the featured **Pro Tier** plan with customized background contrast, distinct action buttons, and bullet point feature lists.
 
-(Also you can follow figma design only).
-
----
-
-## 🎨 PLACEHOLDER SECTION — AI CHALLENGE (10 Marks)
-
-This is the **only** section where AI usage is expected and encouraged.
-
-- Replace the "Something Missing? Generate a relevant section with AI" placeholder with a brand-new section of your own idea.
-
-- The section **must stay relevant to the DevConf 2026 theme** (e.g. Sponsors,  Venue, FAQ, Newsletter Signup, Hackathon Details, Past Highlights, Job Board, etc.).
-- Use AI (Claude, ChatGPT, or any tool) to help you **ideate, design, and/or code** this section.
-
-- Marks will be given based on:
-
-  - How **unique** and creative the section idea is
-  - How well it **fits** visually and thematically with the rest of the page
-  - How effectively you used AI (clarity and quality of your prompting)
-
-- You must **submit the prompt(s)** you used to generate this section along with your submission (see Submission Format below).
+### 6. ⚓ Comprehensive Footer (`<footer class="footer">`)
+- Dual-zone layout with brand story, email contact badge (`hello@devconf.tech`), and San Francisco location metadata.
+- Organized multi-column site navigation, legal policies, code of conduct, and social channels (X, GitHub, LinkedIn, YouTube).
 
 ---
 
-## 🔸 Other Requirements (Must Follow)
-- Minimum **5 GitHub commits**
-- **No Lorem Ipsum** text anywhere on the website
-- No duplicated/copy-pasted text across repeating sections (e.g. each speaker bio/description must be unique)
+## 🧠 AI-Driven Workflow & Prompt Engineering
+
+The **"What You'll Experience"** section was engineered using an iterative **AI Prompt Engineering Workflow** (detailed step-by-step in [Prompt.md](file:///e:/ph-aasignments/dev-conf/Prompt.md)).
+
+### Engineering Approach:
+1. **User Journey Optimization:** Analyzed conversion friction between speaker discovery and ticket selection. Designed a feature matrix bridging educational value with networking incentives.
+2. **Design Token Alignment:** Prompted generative models using concrete design constraints (specific HEX colors `#2563EB`, `#111827`, border radii `18px-24px`, micro-animations, inline SVG requirement, and semantic structure).
+3. **Clean Code Output:** Extracted semantic `<article>` markup and CSS variables, eliminating extraneous wrappers or redundant utility classes.
 
 ---
 
-## 🎥 ADDITIONAL REQUIREMENT — Concept Explanation Video (Optional, 0 Marks)
+## 🛠️ Technology Stack & Specifications
 
-> ⚠️ **This is fully optional and carries no marks in this assignment. However, it is highly recommended.** Starting from the next assignment, submitting a short explanation video like this will become **mandatory**, so use this one to get comfortable with the format early.
-
-- Record a **max 5-minute video** explaining the following basic HTML & CSS questions in your own words:
-
-  1. What is the difference between a `<div>` and a `<span>`? When would you use each?
-  2. What is the CSS Box Model? Explain `content`, `padding`, `border`, and `margin`.
-  3. What is the difference between a CSS `class` and an `id`? When should you use one over the other?
-  4. What is Flexbox, and what's the difference between `justify-content` and `align-items`?
-  5. What is the difference between `position: relative`, `absolute`, and `fixed` in CSS?
-
-- Speak naturally, in your own words — no need to read from a script.
-- Screen recording with your face on camera (or voice-over on slides/code) is fine, whichever you're comfortable with.
-- Upload the video link (YouTube/Google Drive) along with your submission.
+| Dimension | Specification |
+| :--- | :--- |
+| **Markup** | HTML5 (Semantic, W3C Standards Compliant) |
+| **Styling** | Vanilla CSS3 (Custom Variables, Flexbox, CSS Grid) |
+| **Typography** | Google Font (`Inter` 400, 500, 600, 700, 800) |
+| **Design Tokens** | Primary `#2563EB`, Dark `#111827`, Muted `#6B7280`, Border `#E5E7EB` |
+| **Asset Strategy** | Inline Vector SVGs + Optimized Web Images |
+| **Dependencies** | 0 Third-Party Frameworks / 0 JS Libraries |
 
 ---
 
-## 🛠️ Tech Stack
+## 📂 Directory Layout
 
-- HTML5
-- CSS3
-- No JavaScript
-- No CSS frameworks or libraries
+```text
+dev-conf/
+├── assets/                  # Brand assets, speaker imagery & backgrounds
+│   ├── logo.png
+│   ├── logo-mini.png
+│   ├── hero-bg.png
+│   ├── andrej.png
+│   ├── demis.png
+│   ├── gary.png
+│   └── mustafa.png
+├── index.html               # Main Semantic HTML5 Landing Page
+├── style.css                # Global Design System & Component Rulesets
+├── Prompt.md                # Detailed AI Prompt Engineering Case Study
+├── DevConf2026.fig          # Original Figma UI Design System
+└── Readme.md                # Production Portfolio Documentation
+```
+
+---
+
+## 💻 Local Setup & Development
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/tanjimtaosif/dev-conf.git
+   ```
+2. **Navigate into the directory:**
+   ```bash
+   cd dev-conf
+   ```
+3. **Run locally:**
+   - Open `index.html` directly in any web browser or launch using **VS Code Live Server**.
 
 ---
 
-## 📂 Submission Format
+Designed and crafted with precision by **Tanjim Taosif**.
 
-- **GitHub Repository Link**
-- **Live Website Link (GitHub Pages)**
-- **AI Prompt(s)** used for the Placeholder Section (paste as text, or include in a `PROMPTS.md` file in your repo)
-- **(Optional) Concept Explanation Video Link**
 
----
-
-## ❓ Common Questions & Answers
-
-**Can I use different images?**
-
-- Yes, you may use any relevant images (speaker photos, hero background, etc.).
-
-**Can I change the alignment and design freely?**
-
-- No. You must follow the alignment and layout shown in the Figma design.
-
-**Can I change colors?**
-
-- Yes, as long as the colors are relevant and visually consistent with a tech-conference theme.
-
-**Do I need to make the page pixel-perfect?**
-
-- No. You can use your own margin and padding while following the overall structure from Figma.
-
-**Can I use AI to build my sections?**
-
-- Only for the **Placeholder Section** (see below). For every other section, you are expected to write the HTML & CSS yourself. Using AI to generate the Navbar, Banner, Speakers, Pricing, or Footer sections is **not recommended** and may cost marks during evaluation.
-
-**Is the explanation video mandatory?**
-- No, not for this assignment. It's optional and won't be graded, but it's a good habit to build early since it will be mandatory starting next assignment.
-
----
----
-
-## ❓ Common Issues You May Face and Quick Solutions
-
-**GitHub Pages showing 404 / site not loading?**
-- Your main HTML file **must be named `index.html`** (lowercase). GitHub Pages looks for this file by default. Rename it if it's called anything else (e.g. `home.html`, `Index.html`).
-
-**Images or CSS not loading on GitHub Pages?**
-- Add `./` before your file paths: `./style.css`, `./images/photo.jpg` instead of `style.css` or `/images/photo.jpg`.
-- File names are **case-sensitive** on GitHub Pages (Linux). `Photo.jpg` ≠ `photo.jpg` — make sure casing matches exactly.
-
-**CSS background image not showing?**
-- Paths in CSS `background-image: url(...)` are relative to the **CSS file location**, not the HTML file. Use `./images/bg.jpg` or `../images/bg.jpg` depending on your folder structure.
-
-**Site not updating after pushing to GitHub?**
-- Wait 1–2 minutes, then hard refresh: `Ctrl + Shift + R` (Windows) / `Cmd + Shift + R` (Mac) to bypass browser cache.
-
-**CSS changes not reflecting locally?**
-- Hard refresh: `Ctrl + Shift + R`. Your browser is likely showing a cached version.
-
-**Commit count is less than 5?**
-- Commit after completing each section (Navbar → Banner → Speakers → Pricing → Footer). Don't push everything in one final commit.
-
-**Fonts or icons not loading?**
-- If using Google Fonts or icon libraries via `<link>`, they require an internet connection. They will work fine on GitHub Pages.
-
-**Page looks fine locally but broken on GitHub Pages?**
-- Check all file/folder names for typos and casing mismatches. Windows ignores case, but GitHub Pages (Linux) does not.
